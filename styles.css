@@ -1,0 +1,79 @@
+html
+{
+    margin: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+header 
+{
+    color: white;
+    background: rgb(0, 114, 185);
+    text-align: center;
+    padding: 2em;
+    margin: 0 0 2em 0;
+}
+
+#searchbtn 
+{
+    color: white;
+    background: rgb(177, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#searchbtn:hover 
+{
+    background: rgb(184, 86, 86);
+}
+div#result>#null{
+    color: #FF3232;;
+}
+
+div.container 
+{
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(233, 233, 233)
+}
+
+div.container>main 
+{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+form 
+{
+    display: grid;
+    width: 1000px;
+
+    grid-template-columns: 10fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 5px;
+    margin: 5px;
+}
+
+form>label 
+{
+    grid-column: 1 /span 2;
+}
+
+#herofield
+{
+    border: solid grey 1px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+#result 
+{
+    padding: 100px;
+    width: 1250px;
+}
+
+#result>hr 
+{
+    margin: 0px -60em 1px 0;
+    height: 0.3px;
+}
